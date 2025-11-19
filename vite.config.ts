@@ -22,7 +22,7 @@ const ghPagesFallback = () => ({
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/", // Base path for deployment
+  base: process.env.GITHUB_PAGES === 'true' ? "/landingpage-2/" : "/", // Base path: subdirectory for GitHub Pages, root for custom domain
   server: {
     host: "::",
     port: 8080,
