@@ -2,7 +2,7 @@ import { Phone, Mail } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground py-16 sm:py-20 md:py-24">
+    <footer className="bg-primary text-primary-foreground py-12 sm:py-16 md:py-20">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto text-center">
           {/* Footer intro line */}

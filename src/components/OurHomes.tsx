@@ -52,7 +52,7 @@ export const OurHomes = () => {
   ];
 
   return (
-    <section className="py-20 sm:py-24 md:py-28 lg:py-32 gradient-section-light overflow-hidden">
+    <section className="py-12 sm:py-16 md:py-20 gradient-section-2 overflow-hidden">
       <div className="container mx-auto">
         <div className="w-full md:max-w-6xl md:mx-auto">
           {/* Header */}
@@ -143,7 +143,7 @@ export const OurHomes = () => {
       {/* Mobile-specific overrides for this section */}
       <style>{`
         @media (max-width: 768px) {
-          .gradient-section-light .container {
+          .gradient-section-2 .container {
             padding-left: 1rem !important;
             padding-right: 1rem !important;
             max-width: 100vw !important;
@@ -151,12 +151,12 @@ export const OurHomes = () => {
             margin: 0 !important;
           }
           
-          .gradient-section-light .grid {
+          .gradient-section-2 .grid {
             margin: 0 !important;
             width: 100% !important;
           }
           
-          .gradient-section-light .grid > div {
+          .gradient-section-2 .grid > div {
             width: 100% !important;
             max-width: 100% !important;
             margin: 0 !important;

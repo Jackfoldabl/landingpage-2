@@ -25,7 +25,7 @@ export const UseCases = () => {
   ];
 
   return (
-    <section className="py-20 sm:py-24 md:py-28 lg:py-32 bg-white">
+    <section className="py-12 sm:py-16 md:py-20 gradient-section-3">
       <div className="container mx-auto">
         <div className="max-w-6xl mx-auto">
           {/* Header */}

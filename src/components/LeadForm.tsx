@@ -14,7 +14,7 @@ export const LeadForm = () => {
   }, []);
 
   return (
-    <section id="lead-form" className="py-20 sm:py-24 md:py-28 lg:py-32 gradient-form scroll-mt-20">
+    <section id="lead-form" className="py-12 sm:py-16 md:py-20 gradient-form scroll-mt-20">
       <div className="container mx-auto">
         <div className="max-w-[960px] mx-auto">
           {/* Heading */}

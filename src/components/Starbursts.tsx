@@ -35,7 +35,7 @@ export const Starbursts = () => {
   ];
 
   return (
-    <section className="py-20 sm:py-24 md:py-28 lg:py-32 bg-background">
+    <section className="py-12 sm:py-16 md:py-20 gradient-section-1">
       <div className="container mx-auto">
         <div className="max-w-6xl mx-auto">
           {/* Header */}

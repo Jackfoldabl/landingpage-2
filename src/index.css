@@ -65,6 +65,14 @@
     --gradient-cta: linear-gradient(135deg, hsl(24 47% 66%) 0%, hsl(24 47% 58%) 100%);
     --gradient-card-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(0 0% 99%) 100%);
     --gradient-section-light: linear-gradient(180deg, hsl(0 0% 99%) 0%, hsl(0 0% 97%) 100%);
+    
+    /* Subtle section background variations using brand colors */
+    --gradient-section-1: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(0 0% 99.5%) 100%);
+    --gradient-section-2: linear-gradient(180deg, hsl(210 11% 99%) 0%, hsl(210 11% 98.5%) 100%);
+    --gradient-section-3: linear-gradient(180deg, hsl(24 47% 99%) 0%, hsl(24 47% 98.5%) 100%);
+    --gradient-section-4: linear-gradient(180deg, hsl(210 11% 98.5%) 0%, hsl(210 11% 98%) 100%);
+    --gradient-section-5: linear-gradient(180deg, hsl(0 0% 99.5%) 0%, hsl(0 0% 99%) 100%);
+    --gradient-section-6: linear-gradient(180deg, hsl(24 47% 98.5%) 0%, hsl(24 47% 98%) 100%);
 
     /* Enhanced Multi-Level Shadow System (Payrot-inspired depth) */
     --shadow-xs: 0 1px 3px hsl(210 11% 43% / 0.04);
@@ -177,6 +185,30 @@
 
   .gradient-section-light {
     background: var(--gradient-section-light);
+  }
+
+  .gradient-section-1 {
+    background: var(--gradient-section-1);
+  }
+
+  .gradient-section-2 {
+    background: var(--gradient-section-2);
+  }
+
+  .gradient-section-3 {
+    background: var(--gradient-section-3);
+  }
+
+  .gradient-section-4 {
+    background: var(--gradient-section-4);
+  }
+
+  .gradient-section-5 {
+    background: var(--gradient-section-5);
+  }
+
+  .gradient-section-6 {
+    background: var(--gradient-section-6);
   }
 
   /* Shadow Utilities - Multi-level depth system */
