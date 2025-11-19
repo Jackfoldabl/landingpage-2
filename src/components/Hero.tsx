@@ -28,7 +28,7 @@ export const Hero = () => {
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 w-full px-4 sm:px-8 py-8 md:px-8 safe-area-inset flex items-center justify-center">
+      <div className="relative z-10 w-full py-8 safe-area-inset flex items-center justify-center container mx-auto">
         {/* Mobile Layout: Image as visible element */}
         <div className="w-full md:hidden flex flex-col gap-6">
           {/* Mobile Image - displayed as an element */}

@@ -34,7 +34,6 @@ export const OurHomes = () => {
         "Multiple layout options available",
         "Best value for size and quality",
       ],
-      popular: true,
       ctaText: "Get 2 Bedroom Quote",
     },
     {
@@ -71,28 +70,19 @@ export const OurHomes = () => {
             {homes.map((home, index) => (
               <div
                 key={index}
-                className={`relative flex flex-col p-5 sm:p-8 md:p-10 rounded-xl
+                className="relative flex flex-col p-5 sm:p-8 md:p-10 rounded-xl
                            shadow-lg
                            hover:shadow-2xl
                            md:hover:-translate-y-1
                            transition-all duration-300 ease-out
                            animate-fade-in
-                           w-full
-                           ${home.popular ? 'ring-2 ring-accent shadow-xl pt-14 sm:pt-12 md:pt-12' : 'pt-5 sm:pt-8 md:pt-10'}`}
+                           w-full"
                 style={{ 
                   animationDelay: `${index * 0.15}s`,
                   backgroundColor: '#5F6B7B',
                   color: '#FFFFFF'
                 }}
               >
-                {/* Popular Badge */}
-                {home.popular && (
-                  <div className="absolute top-4 sm:top-5 left-1/2 transform -translate-x-1/2 z-10">
-                    <span className="bg-accent text-accent-foreground px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-lg whitespace-nowrap">
-                      Most Popular
-                    </span>
-                  </div>
-                )}
 
                 {/* Name & Size */}
                 <h3 className="text-[19px] leading-[1.3] sm:text-xl md:text-2xl font-bold text-white mb-1">
@@ -106,7 +96,7 @@ export const OurHomes = () => {
                 </div>
 
                 {/* Floor Plan Image */}
-                <div className="w-full rounded-lg mb-6 overflow-hidden bg-white">
+                <div className="w-full mb-6 overflow-hidden bg-white">
                   <img 
                     src={home.image} 
                     alt={`${home.name} floor plan`}
@@ -154,7 +144,8 @@ export const OurHomes = () => {
       <style>{`
         @media (max-width: 768px) {
           .gradient-section-light .container {
-            padding: 0 0.75rem !important;
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
             max-width: 100vw !important;
             width: 100% !important;
             margin: 0 !important;
