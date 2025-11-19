@@ -38,7 +38,7 @@ export const Process = () => {
             <h2 className="mb-5 text-[28px] leading-[1.25] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
               How It Works
             </h2>
-            <p className="text-[16px] leading-[1.65] sm:text-lg md:text-xl max-w-[640px] mx-auto text-muted-foreground">
+            <p className="text-[16px] leading-[1.6] sm:text-lg md:text-xl max-w-[640px] mx-auto text-muted-foreground">
               We guide you through every step—from initial enquiry to move-in day.
             </p>
           </div>
@@ -69,13 +69,13 @@ export const Process = () => {
                         <step.icon className="w-7 h-7 text-accent" />
                       </div>
                       
-                      <h3 className="text-left font-semibold leading-[1.3] text-primary text-[18px] sm:text-[19px]">
+                      <h3 className="text-left font-semibold text-[19px] leading-[1.3] sm:text-xl md:text-2xl text-primary">
                         {step.title}
                       </h3>
                     </div>
 
                     {/* Description */}
-                    <p className="text-left flex-1 text-muted-foreground text-[15px] sm:text-base leading-[1.65]">
+                    <p className="text-left flex-1 text-muted-foreground text-[15px] leading-relaxed sm:text-base">
                       {step.description}
                     </p>
                     

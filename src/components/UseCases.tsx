@@ -58,12 +58,12 @@ export const UseCases = () => {
 
                 <div className="flex-1">
                   {/* Title */}
-                  <h3 className="text-[19px] sm:text-xl font-bold mb-3 text-primary leading-snug">
+                  <h3 className="text-[19px] leading-[1.3] sm:text-xl md:text-2xl font-bold mb-3 text-primary">
                     {useCase.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-[15px] sm:text-base text-muted-foreground leading-relaxed">
+                  <p className="text-[15px] leading-relaxed sm:text-base text-muted-foreground">
                     {useCase.description}
                   </p>
                 </div>

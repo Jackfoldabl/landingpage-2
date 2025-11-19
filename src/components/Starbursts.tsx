@@ -35,7 +35,7 @@ export const Starbursts = () => {
   ];
 
   return (
-    <section className="py-20 sm:py-24 md:py-28 bg-background">
+    <section className="py-20 sm:py-24 md:py-28 lg:py-32 bg-background">
       <div className="container mx-auto">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
@@ -79,12 +79,12 @@ export const Starbursts = () => {
                 </div>
 
                 {/* Title - Consistent size across breakpoints */}
-                <h3 className="text-[20px] sm:text-[21px] md:text-2xl font-bold mb-4 text-primary leading-snug">
+                <h3 className="text-[19px] leading-[1.3] sm:text-xl md:text-2xl font-bold mb-4 text-primary">
                   {starburst.title}
                 </h3>
 
                 {/* Description - No shrinking on mobile */}
-                <p className="text-[15px] sm:text-base leading-[1.65] text-muted-foreground">
+                <p className="text-[15px] leading-relaxed sm:text-base text-muted-foreground">
                   {starburst.description}
                 </p>
               </div>

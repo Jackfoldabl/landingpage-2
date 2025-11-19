@@ -35,12 +35,12 @@ export const Testimonials = () => {
           {/* Header with intro, headline, and star rating */}
           <div className="text-center mb-16 sm:mb-20 animate-fade-in">
             {/* Intro line */}
-            <p className="text-muted-foreground text-[15px] sm:text-base mb-6 leading-relaxed">
+            <p className="text-muted-foreground text-[16px] leading-[1.6] sm:text-lg md:text-xl mb-6">
               What our customers say about their experience
             </p>
             
             {/* Headline */}
-            <h2 className="text-primary font-bold text-[28px] sm:text-3xl md:text-4xl lg:text-5xl leading-tight mb-6">
+            <h2 className="text-primary font-bold text-[28px] leading-[1.25] sm:text-3xl md:text-4xl lg:text-5xl mb-6">
               Real Stories From Real Families
             </h2>
 
@@ -76,7 +76,7 @@ export const Testimonials = () => {
                 </div>
                 
                 {/* Quote text */}
-                <p className="mb-5 text-primary text-[15px] sm:text-base leading-relaxed">
+                <p className="mb-5 text-primary text-[15px] leading-relaxed sm:text-base">
                   {testimonial.text}
                 </p>
                 
@@ -84,7 +84,7 @@ export const Testimonials = () => {
                 <div className="w-10 h-0.5 bg-accent/30 rounded-full mb-3" />
                 
                 {/* Author name and location */}
-                <p className="font-semibold text-accent text-[15px] sm:text-base">
+                <p className="font-semibold text-accent text-[15px] leading-relaxed sm:text-base">
                   {testimonial.author}, {testimonial.location}
                 </p>
               </div>

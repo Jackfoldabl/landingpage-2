@@ -95,7 +95,7 @@ export const OurHomes = () => {
                 )}
 
                 {/* Name & Size */}
-                <h3 className="text-[24px] sm:text-3xl font-bold text-white mb-1">
+                <h3 className="text-[19px] leading-[1.3] sm:text-xl md:text-2xl font-bold text-white mb-1">
                   {home.name}
                 </h3>
                 <p className="text-accent font-medium text-sm sm:text-base mb-4">{home.size}</p>
@@ -120,7 +120,7 @@ export const OurHomes = () => {
                   {home.features.map((feature, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-[15px] sm:text-base text-white/90 leading-relaxed">
+                      <span className="text-[15px] leading-relaxed sm:text-base text-white/90">
                         {feature}
                       </span>
                     </li>
@@ -142,7 +142,7 @@ export const OurHomes = () => {
 
           {/* Bottom Note */}
           <div className="text-center mt-12 sm:mt-16">
-            <p className="text-[14px] sm:text-base text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-[15px] leading-relaxed sm:text-base text-muted-foreground max-w-3xl mx-auto">
               Prices shown are for the home only (installation quoted separately). Finance from $82/week available to approved buyers. 
               Every home meets Australian building standards—we help with council approvals.
             </p>

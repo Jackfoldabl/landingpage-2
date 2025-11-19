@@ -19,7 +19,7 @@ export const LeadForm = () => {
         <div className="max-w-[960px] mx-auto">
           {/* Heading */}
           <div className="text-center mb-14 sm:mb-16 md:mb-20">
-            <p className="text-[15px] sm:text-base text-primary-foreground/90 mb-4">
+            <p className="text-[16px] leading-[1.6] sm:text-lg md:text-xl text-primary-foreground/90 mb-4">
               Ready to explore what's possible?
             </p>
             <h2 className="mb-5 sm:mb-7 text-[28px] leading-[1.25] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground">
@@ -46,7 +46,7 @@ export const LeadForm = () => {
 
             {/* Notes under form */}
             <div className="mt-6 sm:mt-8 md:mt-10 text-center space-y-3 px-4">
-              <p className="text-sm sm:text-base text-primary-foreground/80 leading-relaxed">
+              <p className="text-[15px] leading-relaxed sm:text-base text-primary-foreground/80">
                 Your information is safe with us. We never spam.
               </p>
             </div>

@@ -47,12 +47,12 @@ export const FAQ = () => {
           {/* Heading block */}
           <div className="text-center mb-16 sm:mb-20 animate-fade-in">
             {/* Intro line */}
-            <p className="text-muted-foreground text-[15px] sm:text-base mb-4 leading-relaxed max-w-[700px] mx-auto">
+            <p className="text-muted-foreground text-[16px] leading-[1.6] sm:text-lg md:text-xl mb-4 max-w-[700px] mx-auto">
               Got questions? We've got answers.
             </p>
             
             {/* Headline */}
-            <h2 className="text-primary font-bold text-[28px] sm:text-3xl md:text-4xl lg:text-5xl leading-tight mb-3">
+            <h2 className="text-primary font-bold text-[28px] leading-[1.25] sm:text-3xl md:text-4xl lg:text-5xl mb-3">
               Frequently Asked Questions
             </h2>
           </div>
@@ -72,7 +72,7 @@ export const FAQ = () => {
                 >
                   <AccordionTrigger 
                     className="text-left hover:no-underline py-0 [&>svg]:text-accent [&>svg]:min-w-[20px]
-                               text-primary font-semibold text-[16px] sm:text-[17px] md:text-lg leading-snug"
+                               text-primary font-semibold text-[19px] leading-[1.3] sm:text-xl md:text-2xl"
                   >
                     <div className="flex items-center gap-3">
                       <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
@@ -82,7 +82,7 @@ export const FAQ = () => {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent 
-                    className="pt-3 sm:pt-4 pl-13 text-muted-foreground text-[15px] sm:text-base leading-relaxed"
+                    className="pt-3 sm:pt-4 pl-13 text-muted-foreground text-[15px] leading-relaxed sm:text-base"
                   >
                     {faq.answer}
                   </AccordionContent>
