@@ -78,7 +78,7 @@ export const OurHomes = () => {
                            transition-all duration-300 ease-out
                            animate-fade-in
                            w-full
-                           ${home.popular ? 'ring-2 ring-accent shadow-xl pt-10 sm:pt-12 md:pt-12' : 'pt-5 sm:pt-8 md:pt-10'}`}
+                           ${home.popular ? 'ring-2 ring-accent shadow-xl pt-14 sm:pt-12 md:pt-12' : 'pt-5 sm:pt-8 md:pt-10'}`}
                 style={{ 
                   animationDelay: `${index * 0.15}s`,
                   backgroundColor: '#5F6B7B',
